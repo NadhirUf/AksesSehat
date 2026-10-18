@@ -4,7 +4,7 @@ Aplikasi bantu komunikasi untuk pasien yang tidak bisa berbahasa setempat. Pasie
 
 **Bahasa:** Indonesia, ไทย (Thai), English
 **Status:** Modul 1 v5, versi awal untuk pengembangan dan demo.
-**Privasi:** tidak ada data kesehatan yang disimpan di aplikasi.
+**Privasi:** tidak ada data kesehatan yang dikirim keluar dari perangkat. Modul 2 menyimpan riwayat minum di HP pengguna.
 
 > **Penting:** terjemahan Thai dan frasa medis masih DRAFT. Harus diperiksa penutur asli atau tenaga kesehatan sebelum dipakai di demo, proposal, atau situasi nyata. Aplikasi ini bukan pengganti penerjemah medis profesional.
 

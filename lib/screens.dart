@@ -6,6 +6,7 @@ import 'report.dart';
 import 'speaker.dart';
 import 'state.dart';
 import 'strings.dart';
+import 'modul2_screen.dart';
 
 const kTeal = Color(0xFF0B6F78);
 const kTealTint = Color(0xFFE6F3F4);
@@ -239,6 +240,13 @@ class HomeScreen extends StatelessWidget {
                   report.reset();
                   go(context, const BodyMapScreen());
                 },
+              ),
+              const SizedBox(height: 10),
+              BigButton(
+                label: 'Label obat bersuara',
+                icon: Icons.medication,
+                primary: false,
+                onPressed: () => go(context, const Modul2Screen()),
               ),
             ],
           ),
